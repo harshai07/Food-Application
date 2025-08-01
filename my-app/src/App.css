@@ -1,38 +1,134 @@
-.App {
+/* General body styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+header {
+  background-color: #ff6f61;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Navigation bar */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Card-style menu items */
+.menu-item {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin: 6rem;
+  padding: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.menu-item:hover {
+  transform: scale(1.03);
+}
+
+/* Button styling */
+.button {
+  background-color: #ff6f61;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #e85b50;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ff6f61;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.order-container h2 {
   text-align: center;
 }
+.cart-summary h3 {
+  text-align: center;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+}
+.cart-summary p{
+  text-align: center;
+
+}
+.order-button {
+  display: block;
+  margin: -11px auto;
+  width: 200px; /* or any width */
+}
+.cart-summary ul {
+  list-style-position: inside; /* keeps bullet inside the content box */
+  text-align: center;          /* centers the text */
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cart-button{
+  background-color:#0077ED;
+  border-radius: 3%;
+  color: #fff;
+  font-size: 17px;
+   font-size:17px;
+  line-height:1.17648;
+  font-weight:400;
+  letter-spacing:-.022em;
+  font-family:"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  border-style:solid;
+  border-width:1px;
+  min-width:28px;
+  padding-left:21px;
+  padding-right:21px;
+  padding-top:11px;
+  padding-bottom:11px;
+  --sk-button-margin-horizontal: 18px;
+  --sk-button-margin-vertical: 18px
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cart-button:hover{
+  color: #333;
 }
-
-.App-link {
-  color: #61dafb;
+.text-center{
+  text-align: center !important;
+  padding: 1rem !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-image{
+  width: 20%;
+    height: 60%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    
+}
+.menu-image::before,::after{
+  box-sizing: border-box;
 }
