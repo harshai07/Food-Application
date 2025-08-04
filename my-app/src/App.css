@@ -35,12 +35,18 @@ nav ul li a {
 }
 
 /* Card-style menu items */
+
+.menu-section{
+  display: flex;
+  gap: 1rem;
+}
 .menu-item {
+ 
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  margin: 6rem;
-  padding: 1rem;
+  max-width: calc(100% / 3 - 16px);
+  padding: 2rem;
   transition: transform 0.2s ease;
 }
 
@@ -120,15 +126,23 @@ footer {
 .text-center{
   text-align: center !important;
   padding: 1rem !important;
+  justify-content: center !important  ;
 }
 .menu-image{
-  width: 20%;
+  width: 60%;
     height: 60%;
-    display: block;
-    margin: auto;
+    object-fit: contain;
+    /* display: block; */
     padding: 10px;
     
 }
 .menu-image::before,::after{
   box-sizing: border-box;
+}
+.card-title{
+margin-bottom: .5rem;
+}
+.colg-log-4{
+flex: 0 0 auto;
+width: 33.33333333%;
 }
