@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
-import OrderContainer from '../src/components/container/OrderContainer';
+import CafeContainer from './components/container/CafeContainer';
+
 function App() {
   return (
     <div className="App">
-      <OrderContainer />
+      <CafeContainer />
     </div>
   );
 }
