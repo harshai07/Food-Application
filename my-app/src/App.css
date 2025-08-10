@@ -104,7 +104,7 @@ footer {
 .order-button {
   display: block;
   margin: -11px auto;
-  width: 200px; /* or any width */
+  
 }
 .cart-summary ul {
   list-style-position: inside; /* keeps bullet inside the content box */
@@ -212,15 +212,14 @@ list-style-position: inside;
   margin-left: 10px;
   cursor: pointer;
 }
-.order-button{
+/* .order-button{
    background-color: #04AA6D;
     border:1px solid ;
     padding: 10px 0;
-    width: 34%;
     border-radius: 20rem;
     display: block;
     text-align:center;
-}
+} */
 .menu-item {
   padding: 10px;
   margin: 0 auto;
@@ -344,8 +343,8 @@ list-style-position: inside;
 }
 
 .banner {
+  height: 200px;
   max-width: 100%;
-  height: auto;
   margin-top: 15px;
   border-radius: 5px;
 }
