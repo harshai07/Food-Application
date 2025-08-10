@@ -50,8 +50,8 @@ nav ul li a {
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  max-width: 250px;; /* reduced gap */
-  padding: 1rem; /* reduced padding */
+  /* max-width: 250px;; reduced gap */
+  /* padding: 1rem; reduced padding */
   margin: 0 auto; /* center the item */
   transition: transform 0.2s ease;
   box-sizing: border-box;
@@ -394,10 +394,10 @@ menu-carousel {
     padding: 10px;
   }
 
-  .menu-item {
+  /* .menu-item {
     width: 100%;
     margin: 0 auto;
-  }
+  } */
 
   .card-title {
     font-size: 16px;
